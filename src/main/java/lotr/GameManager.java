@@ -21,7 +21,7 @@ public class GameManager {
                     input = sc.nextLine();
                 }
                 if (input.equals("Yes") || input.equals("yes")){
-                    continue;
+                    System.out.println("Game continues!");
                 }else{
                     break;
                 }
